@@ -55,3 +55,8 @@ body {
 .carousel::-webkit-scrollbar {
   display: none;
 }
+
+.blurry {
+  -webkit-backdrop-filter: blur(24px) !important;
+  backdrop-filter: blur(24px) !important;
+}

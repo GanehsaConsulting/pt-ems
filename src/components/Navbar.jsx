@@ -1,6 +1,7 @@
 "use client"
-import { NavbarLinks } from "@/app/Database";
 import Image from "next/image";
+import { NavbarLinks } from "@/app/Database";
+import { IoIosCall } from "react-icons/io";
 import { useEffect, useState, useRef } from "react";
 
 export const Navbar = () => {
@@ -65,7 +66,7 @@ export const Navbar = () => {
     return (
         <>
             <div className={`z-[100] w-full px-3 fixed animate__animated animate__fadeInDown`}>
-                <nav className={`${visible ? "translate-y-0" : "-translate-y-full"} ${isScrolled ? "bg-white bg-opacity-50 backdrop-blur-md" : "bg-secondaryColor"} duration-200 ease-in-out transition-all flex justify-between items-center w-full shadow-secondaryShadow rounded-b-3xl py-1 px-1`}>
+                <nav className={`${visible ? "translate-y-0" : "-translate-y-full"} ${isScrolled ? "bg-white bg-opacity-50 backdrop-blur-md blurry" : "bg-secondaryColor"} duration-200 ease-in-out transition-all flex justify-between items-center w-full shadow-secondaryShadow rounded-b-3xl py-1 px-1`}>
                     <div className="navbar-start w-fit">
                         <Image src={'/logo.png'} width={40} height={40} className="ml-2" alt="PT Elka Mitra Sejahtera Logo" />
                     </div>
@@ -73,24 +74,15 @@ export const Navbar = () => {
                         <a className="btn btn-ghost text-xl">PT Elka Mitra Sejahtera</a>
                     </div>
                     <div className="navbar-end w-fit">
-                        <button className="btn btn-ghost btn-circle">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                className="h-5 w-5"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth="2"
-                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                            </svg>
+                        <a href="tel:6281298902220">
+                        <button className="btn btn-ghost btn-circle text-2xl">
+                            <IoIosCall />
                         </button>
+                        </a>
                     </div>
                 </nav>
                 <nav className={`${visible ? "translate-y-0" : "-translate-y-full"} ${isScrolled ? "scale-100" : "scale-0"} origin-top duration-300 ease-in-out transition-all w-full flex items-center justify-center mt-2`}>
-                    <ul className={`carousel2 md:w-fit w-full px-[17px] py-3 bg-white bg-opacity-50 rounded-full backdrop-blur-md md:flex gap-5 justify-between relative shadow-[0px_0px_11px_0px_#bce3ff]`}>
+                    <ul className={`carousel2 md:w-fit w-full px-[17px] py-3 bg-white bg-opacity-50 rounded-full backdrop-blur-md blurry md:flex gap-5 justify-between relative shadow-[0px_0px_11px_0px_#bce3ff]`}>
                         {NavbarLinks.map((el, idx) => (
                             <li key={idx} ref={el => linkRefs.current[idx] = el} className="carousel-item relative">
                                 <button onClick={() => updateToggle(idx)}>
