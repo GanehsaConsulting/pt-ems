@@ -67,42 +67,6 @@ export const companyProfile = {
         email: "info@bumijayatambang.co.id",
         mapEmbedUrl: "https://maps.google.com/embed?pb=!1m18!1m12...",
     },
-    team: [
-        {
-            name: "Budi Santoso",
-            position: "CEO",
-            photoUrl: "https://www.example.com/team/budi.jpg",
-            bio: "Memiliki pengalaman lebih dari 20 tahun di industri pertambangan, Budi memimpin PT Bumi Jaya Tambang dengan visi yang kuat untuk keberlanjutan.",
-        },
-        {
-            name: "Rina Mulyani",
-            position: "COO",
-            photoUrl: "https://www.example.com/team/rina.jpg",
-            bio: "Rina bertanggung jawab atas operasional harian perusahaan dan memastikan setiap proyek berjalan sesuai target.",
-        },
-    ],
-    portfolio: [
-        {
-            projectName: "Tambang Batu Bara Kalimantan",
-            description: "Proyek eksplorasi dan penambangan batu bara di Kalimantan Timur yang menghasilkan 1 juta ton batu bara per tahun.",
-            projectImage: "https://www.example.com/projects/kalimantan.jpg",
-        },
-        {
-            projectName: "Eksplorasi Nikel Sulawesi",
-            description: "Proyek eksplorasi nikel di Sulawesi yang diprediksi akan menjadi salah satu cadangan terbesar di Asia Tenggara.",
-            projectImage: "https://www.example.com/projects/sulawesi.jpg",
-        },
-    ],
-    certifications: [
-        {
-            name: "ISO 9001:2015",
-            description: "Sistem manajemen mutu yang diakui secara internasional.",
-        },
-        {
-            name: "ISO 14001:2015",
-            description: "Sertifikasi sistem manajemen lingkungan yang memastikan operasional kami ramah lingkungan.",
-        },
-    ],
     socialMedia: {
         instagram: "https://www.instagram.com/bumijayatambang",
         facebook: "https://www.facebook.com/bumijayatambang",
