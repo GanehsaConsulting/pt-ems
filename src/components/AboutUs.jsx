@@ -12,7 +12,7 @@ export const AboutUs = () => {
                 <div className="md:block hidden"></div>
                 <div className="absolute bottom-0 left-0 w-[50%]">
                     <div className="bg-white bg-opacity-0 pt-7 pb-3 pr-7 pl-3 rounded-tr-3xl">
-                        <div className="bg-[#afebff48] backdrop-blur-lg shadow-xl text-white p-5 rounded-2xl space-y-2">
+                        <div className="bg-[#afebff59] backdrop-blur-lg shadow-xl text-white p-5 rounded-2xl space-y-2">
                             <p className="text-2xl font-semibold uppercase tracking-wider">
                                 Tentang Kami
                             </p>
