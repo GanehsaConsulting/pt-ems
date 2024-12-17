@@ -74,7 +74,7 @@ export const Navbar = () => {
                         <a className="btn btn-ghost text-xl">PT Elka Mitra Sejahtera</a>
                     </div>
                     <div className="navbar-end w-fit">
-                        <a href="tel:6281298902220">
+                        <a href="tel:081510269155">
                         <button className="btn btn-ghost btn-circle text-2xl">
                             <IoIosCall />
                         </button>

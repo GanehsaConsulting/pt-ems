@@ -135,8 +135,8 @@ export const contactData = [
     {
         name: "WhatsApp",
         icon: <FaWhatsapp />,
-        un: "Elka Mitra Sejahtera",
-        link: "https://api.whatsapp.com/send?phone=6281298902220",
+        un: "081510269155",
+        link: "https://api.whatsapp.com/send?phone=081510269155",
     },
     {
         name: "Email",
