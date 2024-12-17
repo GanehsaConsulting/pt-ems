@@ -66,7 +66,7 @@ export const Navbar = () => {
     return (
         <>
             <div className={`z-[100] w-full px-3 fixed animate__animated animate__fadeInDown`}>
-                <nav className={`${visible ? "translate-y-0" : "-translate-y-full"} ${isScrolled ? "bg-white bg-opacity-50 backdrop-blur-md blurry" : "bg-secondaryColor"} duration-200 ease-in-out transition-all flex justify-between items-center w-full shadow-secondaryShadow rounded-b-3xl py-1 px-1`}>
+                <nav className={`${visible ? "translate-y-0" : "-translate-y-full"} ${isScrolled ? "bg-white bg-opacity-50 backdrop-blur-md" : "bg-secondaryColor"} duration-200 ease-in-out transition-all flex justify-between items-center w-full shadow-secondaryShadow rounded-b-3xl py-1 px-1`}>
                     <div className="navbar-start w-fit">
                         <Image src={'/logo.png'} width={40} height={40} className="ml-2" alt="PT Elka Mitra Sejahtera Logo" />
                     </div>

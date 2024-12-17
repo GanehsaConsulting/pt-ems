@@ -1,4 +1,4 @@
-import { NavbarLinks } from "@/app/Database"
+import { companyProfile, NavbarLinks } from "@/app/Database"
 import Image from "next/image"
 
 export const Footer = () => {
@@ -15,16 +15,15 @@ export const Footer = () => {
                         Konsultasi Izin Kesehatan Aman & Terpecaya
                     </div>
                 </aside>
-                {/* <nav>
+                <nav>
                     <h6 className="footer-title">Address</h6>
                     <a
-                        href=""
+                        href={companyProfile.contact.mapLink}
                         className="w-[30lvw]"
                     >
-                        Jl. Sarappo No.100A, RT.001/RW.01, Butung, Kec. Wajo,
-                        Kota Makassar, Sulawesi Selatan 90173
+                     {companyProfile.contact.address}
                     </a>
-                </nav> */}
+                </nav>
                 <nav>
                     <h6 className="footer-title">Navigasi</h6>
                     {NavbarLinks.map((el, idx) => (
